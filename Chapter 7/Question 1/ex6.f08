@@ -1,0 +1,14 @@
+program ch0706
+    implicit none
+    real , dimension(-20:20) :: Current
+    real :: Resistance
+    integer :: Voltage
+    
+    print *,' type in the resistance'
+    read *, Resistance
+    
+    do Voltage = -20,20
+        Current(Voltage) = Voltage/Resistance
+        print *, Voltage, ' ', Current(Voltage)
+    enddo
+end program ch0706
