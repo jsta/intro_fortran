@@ -1,0 +1,35 @@
+ Type in the height for person            1
+ Type in the weight for person            1
+ Type in the height for person            2
+ Type in the weight for person            2
+ Type in the height for person            3
+ Type in the weight for person            3
+ Type in the height for person            4
+ Type in the weight for person            4
+ Type in the height for person            5
+ Type in the weight for person            5
+ Type in the height for person            6
+ Type in the weight for person            6
+ Type in the height for person            7
+ Type in the weight for person            7
+ Type in the height for person            8
+ Type in the weight for person            8
+ Type in the height for person            9
+ Type in the weight for person            9
+ Type in the height for person           10
+ Type in the weight for person           10
+ The total of the weights is    17.3700008    
+ Average Height is    1.73700011    
+ The total of the weights is    750.000000    
+ Average Weight is    75.0000000    
+          10  heights, weights and BMI are 
+           1   1.85000002       85.0000000       24.8356457    
+           2   1.79999995       76.0000000       23.4567909    
+           3   1.85000002       85.0000000       24.8356457    
+           4   1.70000005       90.0000000       31.1418667    
+           5   1.75000000       69.0000000       22.5306129    
+           6   1.66999996       83.0000000       29.7608395    
+           7   1.54999995       64.0000000       26.6389179    
+           8   1.63000000       57.0000000       21.4535751    
+           9   1.78999996       65.0000000       20.2865086    
+          10   1.77999997       76.0000000       23.9868717    
