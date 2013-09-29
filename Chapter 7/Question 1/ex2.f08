@@ -1,0 +1,35 @@
+program ch0702
+    ! Variables used
+    ! Height - used to hold the heights above sea level
+    ! Long - used to represent the longitude
+    ! Lat - used to represent the latitude
+    ! both restricted to integer values.
+    ! Correct - holds the correction factor
+    
+    implicit none
+    integer , parameter :: n = 3
+    integer :: Lat , Long
+    real , dimension(1:n,1:n) :: Height
+    real , parameter :: Correct = 10.0
+    
+    do Lat = 1,n
+        do Long = 1,n
+            print *,' type in value at ',Lat,' ',Long
+            read * , Height(Lat,Long)
+        enddo
+    enddo
+    
+    do Lat = 1,n
+        do Long = 1,n
+            Height(Lat,Long) = Height(Lat,Long) + Correct
+        enddo
+    enddo
+    
+    print * , ' Corrected data is '
+    
+    do Lat = 1,n
+        do Long = 1,n
+            print * , Height(Lat,Long)
+        enddo
+    enddo
+end program ch0702
