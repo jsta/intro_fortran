@@ -1,0 +1,23 @@
+program ch0705
+	implicit none
+	integer , parameter :: NR=5
+	integer , parameter :: NC=10
+	integer , parameter :: NF=3
+	integer :: Row,Column,Floor
+	character*1 , dimension(1:NR,1:NC,1:NF) :: Seats=' '
+	
+	do Floor=1,NF
+		do
+			Row=1,NR
+			read *,(Seats(Row,Column,Floor),Column=1,NC)
+		enddo
+	enddo
+	
+	print *,' Seat plan is'
+	do Floor=1,NF
+	    print *,' Floor = ',Floor
+	    do Row=1,NR
+	        print *,(Seats(Row,Column,Floor),Column=1,NC)
+	    enddo
+	enddo
+end program ch0705
