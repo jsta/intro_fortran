@@ -20,5 +20,12 @@ program q2
     data4 = [4, 5, 6]
     data5 = [10, 20, 30]
 
+    ! Experiment
+    table = 0
+    table(1,1:3) = 1
+
+    do i=1,5
+        print *, table(i, 1:3)
+    enddo
 
 end program q2
