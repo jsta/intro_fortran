@@ -26,7 +26,6 @@ program q2
     table(1:3, 4) = D
     table(1:3, 5) = E
 
-    ! print out the table in tabular form
     do i=1,3
         print *, table(i, 1:5)
     enddo
