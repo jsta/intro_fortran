@@ -29,7 +29,7 @@ program q3
 
     ! sum up the columns
     do column = 1, n - 1
-        column_sum = sum(table(1:3, column), dim = 1)
+        column_sum = sum(table(1:3, column))
         table(n, column) = row_sum
         column_sum = 0
     enddo
