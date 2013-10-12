@@ -16,15 +16,22 @@ program q3
             read *, table(row, column)
         enddo
     enddo
-
+    
     ! sum up the rows
     do row = 1, n - 1
         !do column = 1, n - 1
         !    row_sum = row_sum + table(row, column)
         !enddo
-        row_sum = sum(table(column))
+        row_sum = sum(table(row, 1:3))
         table(row, n) = row_sum
         row_sum = 0
+    enddo
+
+    ! sum up the columns
+    do column = 1, n - 1
+        column_sum = sum(table(1:3, column))
+        table(n, column) = row_sum
+        column_sum = 0
     enddo
 
     ! now print the table out
