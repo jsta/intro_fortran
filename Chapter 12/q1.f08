@@ -1,3 +1,11 @@
+module mod_module
+contains
+integer function mod1(a, b)
+    implicit none
+
+    integer, intent(in) :: a, b
+end mod_module
+
 program q1
     ! Find out the action of the mod function when
     ! one of the arguments is negative.
