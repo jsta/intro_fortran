@@ -15,6 +15,7 @@ program q1
     neg_mod = mod(i,j)
 
     print *, "Answer: ", neg_mod
+    print *, "Expected: -2"
 
 
 end program q1
