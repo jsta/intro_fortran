@@ -38,7 +38,7 @@ program q1
     real :: neg_mod, test
 
     print *, "Trying negative mod with:"
-    print *, "mod(", i, j, ")"
+    print *, "mod(", i,",", j, ")"
 
     neg_mod = mod(i,j)
 
